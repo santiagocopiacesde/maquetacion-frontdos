@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.header {
+  grid-column: span 2;
+  background-color: #6b78c7;
+  height: 80px;
+  border: 2px solid black;
+}
+
+.main {
+  background-color: #e57373;
+  border: 2px solid black;
+  height: 600px;
+  width: 900px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  background-color: #81c784;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.box-row {
+  display: flex;
+  gap: 10px;
+}
+
+.small-box {
+  background-color: #4fc3f7;
+  flex: 1;
+  height: 170px;
+  width: 300px;
+}
